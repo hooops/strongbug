@@ -1,0 +1,448 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0035)http://www.v2ex.com/t/256449#reply9 -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta content="True" name="HandheldFriendly">
+	
+    <meta name="detectify-verification" content="d0264f228155c7a1f72c3d91c17ce8fb">
+<meta name="alexaVerifyID" content="OFc8dmwZo7ttU4UCnDh1rKDtLlY">
+<meta name="baidu-site-verification" content="D00WizvYyr">
+<meta name="msvalidate.01" content="D9B08FEA08E3DA402BF07ABAB61D77DE">
+<meta property="wb:webmaster" content="f2f4cb229bda06a4">
+<meta name="google-site-verification" content="LM_cJR94XJIqcYJeOCscGVMWdaRUvmyz6cVOqkFplaU">
+    
+    <title>我的 mint 突然好卡 - V2EX</title>
+    
+	   <link rel="stylesheet" type="text/css" media="screen" href="../static/strongbug9_files/basic.css">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/strongbug9_files/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/strongbug9_files/desktop.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/strongbug9_files/highlight.css">
+    <link rel="shortcut icon" href="http://www.v2ex.com/static/img/icon_rayps_64.png" type="image/png">
+    <link rel="apple-touch-icon" href="http://www.v2ex.com/static/apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="../static/strongbug9_files/font-awesome.min.css">
+	<script async="" src="../static/strongbug9_files/analytics.js"></script><script src="../static/strongbug9_files/jquery.js" type="text/javascript"></script>
+	<script src="../static/strongbug9_files/jquery-ui.js" type="text/javascript"></script>
+	<script src="../static/strongbug9_files/jquery.autosize.js" type="text/javascript"></script>
+    <link href="../static/strongbug9_files/jquery.textcomplete.css" rel="stylesheet">
+    <script src="../static/strongbug9_files/v2ex.js" type="text/javascript"></script>
+    <link href="../static/strongbug9_files/select2.css" rel="stylesheet">
+    <script src="../static/strongbug9_files/select2.min.js" type="text/javascript"></script>
+    <link href="../static/strongbug9_files/selectboxit.css" rel="stylesheet">
+    <script src="../static/strongbug9_files/selectboxit.min.js" type="text/javascript"></script>
+    <meta name="description" content="Linux - eightqueen - ```Tasks: 275 total,   1 running, 274 sleeping,   0 stopped,   0 zombie%Cpu(s):  8.2 us,  0.2 sy">
+    
+    
+    <link rel="canonical" href="https://www.v2ex.com/t/256449">
+    
+    
+    
+    <link rel="top" title="回到顶部" href="http://www.v2ex.com/t/256449#">
+    
+  
+    <script type="text/javascript">
+function format(tpl) {
+    var index = 1, items = arguments;
+    return (tpl || '').replace(/{(\w*)}/g, function(match, p1) {
+        return items[index++] || p1 || match;
+    });
+}
+function loadCSS(url, callback) {
+    return $('<link type="text/css" rel="stylesheet"/>')
+        .attr({ href: url })
+        .on('load', callback)
+        .appendTo(document.head);
+}
+function lazyGist(element) {
+    var $btn = $(element);
+    var $self = $(element).parent();
+    var $link = $self.find('a');
+    $btn.prop('disabled', 'disabled').text('Loading...');
+    $.getJSON(format('{}.json?callback=?', $link.prop('href').replace($link.prop('hash'), '')))
+        .done(function(data) {
+            loadCSS(data.stylesheet, function() {
+                $self.replaceWith(data.div);
+                $('.gist .gist-file .gist-meta a').filter(function() { return this.href === $link.prop('href'); }).parents('.gist-file').siblings().remove();
+            });
+        })
+        .fail(function() { $self.replaceWith($('<a>').attr('href', url).text(url)); });
+}
+</script>
+
+<style type="text/css"></style></head>
+<body>
+    <div id="Top">
+        <div class="content">
+            <div style="padding-top: 6px;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tbody><tr>
+                    <td width="110" align="left"><a href="http://www.v2ex.com/" name="top" title="way to explore"><img src="../static/strongbug9_files/logo@2x.png" border="0" align="default" alt="V2EX" width="94" height="30"></a></td>
+                    <td width="auto" align="left">
+                        <div id="Search"><form onsubmit="return dispatch()"><div style="width: 276px; height: 28px; background-size: 276px 28px; background-image: url(&#39;/static/img/qbar_light@2x.png&#39;); background-repeat: no-repeat; display: inline-block;"><input type="text" maxlength="40" name="q" id="q" value=""></div></form></div>
+                    </td>
+                    <td width="570" align="right" style="padding-top: 2px;"><a href="http://www.v2ex.com/" class="top">首页</a>&nbsp;&nbsp;&nbsp;<a href="http://www.v2ex.com/signup" class="top">注册</a>&nbsp;&nbsp;&nbsp;<a href="http://www.v2ex.com/signin" class="top">登录</a></td>
+                </tr>
+            </tbody></table>
+            </div>
+        </div>
+    </div>
+    <div id="Wrapper">
+        <div class="content">
+            
+            <div id="Leftbar"></div>
+            <div id="Rightbar">
+                <div class="sep20"></div>
+                
+                    
+                    <div class="box">
+                        <div class="cell">
+                            <strong>V2EX = way to explore</strong>
+                            <div class="sep5"></div>
+                            <span class="fade">V2EX 是一个关于分享和探索的地方</span>
+                        </div>
+                        <div class="inner">
+                            <div class="sep5"></div>
+                            <div align="center"><a href="http://www.v2ex.com/signup" class="super normal button">现在注册</a>
+                            <div class="sep5"></div>
+                            <div class="sep10"></div>
+                            已注册用户请 &nbsp;<a href="http://www.v2ex.com/signin">登录</a></div>
+                        </div>
+                    </div>
+                    
+                    
+
+    
+    <div class="sep20"></div>
+    <div class="box">
+        <div class="inner">
+            <a href="http://www.v2ex.com/t/252808" target="_blank"></a>
+<div class="sep10"></div>
+<a href="http://www.jiankongbao.com/?utm_source=web&utm_medium=banner&utm_campaign=v2ex" target="_blank"></a>
+<div class="sep10"></div>
+<a href="http://www.oneapm.com/ci/docker.html?utm_source=v2ex&utm_medium=logo&utm_term=docker&utm_content=logolink&utm_campaign=NovAds&from=maadfiNovu" target="_blank"></a>
+<div class="sep10"></div>
+<a href="http://www.linuxprobe.com/" target="_blank"></a>
+<div class="sep10"></div>
+<a href="https://mart.coding.net/?utm_source=v2ex&utm_medium=banner&utm_campaign=mart" target="_blank"></a>
+<div class="sep10"></div>
+<a href="http://100offer.com/join/v2exexclusive?utm_source=v2ex.com&utm_medium=dis&utm_content=small" target="_blank"></a>
+<div class="sep10"></div>
+<strong class="green">Distributions</strong>
+<div class="sep5"></div>
+<span class="chevron">›</span> <a href="http://www.ubuntu.com/" target="_blank">Ubuntu</a>
+<div class="sep5"></div>
+<span class="chevron">›</span> <a href="http://fedoraproject.org/" target="_blank">Fedora</a>
+<div class="sep5"></div>
+<span class="chevron">›</span> <a href="http://www.centos.org/" target="_blank">CentOS</a>
+<div class="sep10"></div>
+<strong class="fade">中文资源站</strong>
+<div class="sep5"></div>
+<span class="chevron">›</span> <a href="http://mirrors.163.com/" target="_blank">网易开源镜像站</a>
+<div class="sep5"></div>
+<span class="chevron">›</span> <a href="http://ubuntu.v2ex.com/" target="_blank">ubuntu.v2ex.com</a>
+        </div>
+    </div>
+    
+
+
+                    
+                    <div class="sep20"></div>
+                    
+
+<div class="box">
+    <div class="inner" align="center">
+        <a href="http://100offer.com/join/v2exexclusive?utm_source=v2ex.com&utm_medium=dis&utm_content=big" target="_blank"></a>
+    </div>
+</div>
+
+
+                    <div class="sep20"></div>
+                    
+                    
+                    
+                
+            </div>
+            <div id="Main">
+                <div class="sep20"></div>
+                
+<div class="box" style="border-bottom: 0px;">
+    <div class="header"><div class="fr"><a href="http://www.v2ex.com/member/eightqueen"><img src="../static/strongbug9_files/29780_large.png" class="avatar" border="0" align="default"></a></div>
+    <a href="http://www.v2ex.com/">V2EX</a> <span class="chevron">&nbsp;›&nbsp;</span> <a href="http://www.v2ex.com/go/linux">Linux</a>
+    <div class="sep10"></div>
+    <h1>我的 mint 突然好卡</h1>
+    <div id="topic_256449_votes" class="votes">
+<a href="javascript:" onclick="upVoteTopic(256449);" class="vote"><li class="fa fa-chevron-up"></li></a> &nbsp;<a href="javascript:" onclick="downVoteTopic(256449);" class="vote"><li class="fa fa-chevron-down"></li></a></div> &nbsp; <small class="gray"><a href="http://www.v2ex.com/member/eightqueen">eightqueen</a> · 1 小时 42 分钟前 · 248 次点击</small>
+    </div>
+    
+    
+    
+    <div class="cell">
+        
+        <div class="topic_content"><div class="markdown_body"><div class="highlight"><pre>Tasks: 275 total,   1 running, 274 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.2 us,  0.2 sy,  0.0 ni, 91.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:  16334476 total,  5548928 used, 10785548 free,   170148 buffers
+KiB Swap:  4192252 total,        0 used,  4192252 free.  1614668 cached Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                                                                                   
+ 3109 mountain  20   0 1500856 295168 106296 S  62.3  1.8  18:41.91 cinnamon                                                                                                                                                                  
+ 1345 mongodb   20   0  382056  43236  10912 S   0.7  0.3   0:20.12 mongod                                                                                                                                                                    
+ 1557 root      20   0  310480 111640  63868 S   0.7  0.7   0:50.38 Xorg
+</pre></div>
+
+<p>用了 mint17.2 好几个月都没问题，就这几天很卡， cpu 用的志强 e3 ，桌面隔几秒就会占用超多的 cpu ，我没升级，也没开什么软件。</p>
+</div></div>
+        
+    </div>
+    
+    
+    
+</div>
+
+<div class="sep20"></div>
+
+
+<div class="box">
+    <div class="cell"><div class="fr" style="margin: -3px -5px 0px 0px;"><a href="http://www.v2ex.com/tag/Mem" class="tag"><li class="fa fa-tag"></li> Mem</a><a href="http://www.v2ex.com/tag/CPU" class="tag"><li class="fa fa-tag"></li> CPU</a><a href="http://www.v2ex.com/tag/total" class="tag"><li class="fa fa-tag"></li> total</a><a href="http://www.v2ex.com/tag/Mint" class="tag"><li class="fa fa-tag"></li> Mint</a></div><span class="gray">9 回复 &nbsp;<strong class="snow">|</strong> &nbsp;直到 2016-02-14 19:04:45 +08:00</span>
+    </div>
+
+    
+        
+        
+        <div id="r_2898344" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/59630_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">1</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/imn1" class="dark">imn1</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 36 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">62.3%，占用这么高？</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898350" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/a8107cfefeeb689b9039dc6658d7427f" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">2</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/tairan2006" class="dark">tairan2006</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 33 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">那不妨升级一下，哈。</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898369" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/112291_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">3</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/mikicomo" class="dark">mikicomo</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 20 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">换 ubuntu....会不会被打（逃...</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898370" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/29780_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">4</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/eightqueen" class="dark">eightqueen</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 19 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">@<a href="http://www.v2ex.com/member/mikicomo">mikicomo</a> 肯定要打你啊， ubuntu bug 更多，体验也差的很远。</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898385" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/70868_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">5</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/Flygoat" class="dark">Flygoat</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 12 分钟前 via iPhone</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">换 Fedora （光速逃</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898387" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/112291_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">6</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/mikicomo" class="dark">mikicomo</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 10 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">@<a href="http://www.v2ex.com/member/eightqueen">eightqueen</a> mint 升级的时候源不给力，魔都神奇电信网当时把粑粑吓哭了（换的台湾源，据说是最快的，然并卵）....ubuntu 的 bug 嘛....15.10 之后好像没遇到内部错误啦，天啦噜</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898389" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/112291_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">7</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/mikicomo" class="dark">mikicomo</a></strong>&nbsp; &nbsp;<span class="fade small">1 小时 8 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">@<a href="http://www.v2ex.com/member/Flygoat">Flygoat</a> fedora 高三暑假玩了一暑假（笑 cry...）然后现在安安稳稳 ubuntu 了，发行版其实都无所谓啦，省出时间学学真功夫才是最棒哒~</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898423" class="cell">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/107367_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">8</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/Andiry" class="dark">Andiry</a></strong>&nbsp; &nbsp;<span class="fade small">40 分钟前</span>  &nbsp; <span class="small fade">♥ 1</span>
+                    <div class="sep5"></div>
+                    <div class="reply_content">放狗搜 cinnamon high CPU 呗
+<br>
+<br><a target="_blank" href="https://github.com/linuxmint/Cinnamon/issues/3736" rel="nofollow">https://github.com/linuxmint/Cinnamon/issues/3736</a>
+<br>
+<br>看起来就是个 cinnamon 的 bug</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+    
+        
+        
+        <div id="r_2898427" class="inner">
+        
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tbody><tr>
+                <td width="48" valign="top" align="center"><img src="../static/strongbug9_files/118783_normal.png" class="avatar" border="0" align="default"></td>
+                <td width="10" valign="top"></td>
+                <td width="auto" valign="top" align="left"><div class="fr"> &nbsp; &nbsp; <span class="no">9</span></div>
+                    <div class="sep3"></div>
+                    <strong><a href="http://www.v2ex.com/member/VmuTargh" class="dark">VmuTargh</a></strong>&nbsp; &nbsp;<span class="fade small">37 分钟前</span> 
+                    <div class="sep5"></div>
+                    <div class="reply_content">快入我大 arch 神教还有 xfce4 大法 #手动滑稽</div>
+                </td>
+            </tr>
+        </tbody></table>
+        </div>
+    
+
+
+</div>
+<div class="sep20"></div>
+
+
+
+
+
+
+            </div>
+            
+            
+        </div>
+        <div class="c"></div>
+        <div class="sep20"></div>
+    </div>
+    <div id="Bottom">
+        <div class="content">
+            <div class="inner">
+                <div class="sep10"></div>
+                    <div class="fr">
+                        <a href="https://www.digitalocean.com/?refcode=1b51f1a7651d" target="_blank"><img src="../static/strongbug9_files/do.png" width="64" border="0" alt="DigitalOcean"></a>
+                    </div>
+                    <strong><a href="http://www.v2ex.com/about" class="dark" target="_self">关于</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/faq" class="dark" target="_self">FAQ</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/p/7v9TEc53" class="dark" target="_self">API</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/mission" class="dark" target="_self">我们的愿景</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/ip" class="dark" target="_self">IP 查询</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="https://workspace.v2ex.com/" class="dark" target="_blank">工作空间</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/advertise" class="dark" target="_self">广告投放</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/advertise/2015.html" class="dark" target="_self">鸣谢</a> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/start" class="dark" target="_blank">上网首页</a> &nbsp; <span class="snow">·</span> &nbsp; 745 人在线</strong> &nbsp; <span class="fade">最高记录 1630</span> &nbsp; <span class="snow">·</span> &nbsp; <a href="http://www.v2ex.com/select/language"><img src="../static/strongbug9_files/lang_zhcn_32.png" align="absmiddle" border="0" width="20" alt=""></a>
+                    <div class="sep20"></div>
+                    创意工作者们的社区
+                    <div class="sep5"></div>
+                    World is powered by solitude
+                    <div class="sep20"></div>
+                    <span class="small fade">VERSION: 3.9.5 · 30ms · UTC 11:42 · PVG 19:42 · LAX 03:42 · JFK 06:42<br>♥ Do have faith in what you're doing.</span>
+                    <div class="sep20"></div>
+                    <span class="f12 gray"><a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">沪ICP备15015613号-1</a></span>
+                <div class="sep10"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-11940834-2', 'v2ex.com');
+	  ga('send', 'pageview');
+
+	</script>
+    
+
+    <script src="../static/strongbug9_files/jquery.textcomplete.min.js" type="text/javascript"></script>
+    
+
+</body></html>
